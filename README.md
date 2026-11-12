@@ -1,7 +1,8 @@
 # ML Assignment 2 — Breast Cancer Classification
 ## Problem Statement
 The goal of this project is to classify tumors as malignant or benign using measurements from the Wisconsin Diagnostic Breast Cancer dataset, available through scikit-learn. We evaluated five classifiers (Decision Tree, K-Nearest Neighbors, Logistic Regression, Gaussian Naive Bayes, and Support Vector Machine) on the same held-out test set of 114 records. The Streamlit app evaluates the selected model on an uploaded, labeled test CSV and displays six evaluation metrics and a confusion matrix.
-
+## Dataset Description
+This project uses the Breast Cancer Wisconsin (Diagnostic) dataset from the UCI Machine Learning Repository, accessed through scikit-learn. The full dataset contains 569 records and 30 numerical input features, with 212 malignant and 357 benign cases. The diagnosis column uses 0 for malignant and 1 for benign.The 114 held-out records are saved in test_data.csv and were used to evaluate all five classifiers. 
 ## Project files
 
 - `ML_Assignment_2.ipynb` — Model training and evaluation notebook.
