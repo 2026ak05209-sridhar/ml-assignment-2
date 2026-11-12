@@ -1,6 +1,6 @@
 # ML Assignment 2 — Breast Cancer Classification
-
-This project compares five classifiers on the Wisconsin Diagnostic Breast Cancer dataset included with scikit-learn. The Streamlit app evaluates a selected model on a labeled test CSV and displays six evaluation metrics and a confusion matrix.
+## Problem Statement
+The goal of this project is to classify tumors as malignant or benign using tumor measurements. We compared five classifiers—Decision Tree, K-Nearest Neighbors (KNN), Logistic Regression, Gaussian Naive Bayes, and Support Vector Machine (SVM)—using the same held-out test set of 114 records.This project compares five classifiers on the Wisconsin Diagnostic Breast Cancer dataset included with scikit-learn. The Streamlit app evaluates a selected model on a labeled test CSV and displays six evaluation metrics and a confusion matrix.
 
 ## Project files
 
